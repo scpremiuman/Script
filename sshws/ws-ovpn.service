@@ -1,6 +1,6 @@
 [Unit]
-Description=Python Proxy Mod By RMBL VPN 
-Documentation=https://t.me/rmblvpn
+Description=Python Proxy Mod By PainTech 
+Documentation=https://t.me/paintechvpn 
 After=network.target nss-lookup.target
 
 [Service]
