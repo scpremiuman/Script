@@ -74,15 +74,15 @@ sldns() {
 wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 }
 res1() {
-wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/pain.sh && chmod +x pain.sh && ./pain.sh
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/rmbl1.sh && chmod +x rmbl1.sh && ./rmbl1.sh
+wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/pain1.sh && chmod +x pain1.sh && ./pain1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/rmbl2.sh && chmod +x rmbl2.sh && ./rmbl2.sh
+wget https://raw.githubusercontent.com/scpremiuman/Script/main/slowdns/pain2.sh && chmod +x pain2.sh && ./pain2.sh
 clear
 }
 clear
@@ -111,7 +111,7 @@ echo ""
 echo "$dnss" > /etc/xray/domain
 echo "$dnss" > /etc/v2ray/domain
 echo "IP=$dnss" > /var/lib/ipvps.conf
-read -n 1 -s -r -p "  Press any key to Back Menu"
+read -n 1 -s -r -p "  Press Enter To Continue"
 certv2ray
 clear
 elif [[ $dns == "2" ]]; then
@@ -120,7 +120,7 @@ echo -e "$COLOR1╭════════════════════�
 echo -e "$COLOR1│ \033[1;37mPlease select a your Choice to Set Domain$COLOR1│${NC}"
 echo -e "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo -e "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e "$COLOR1│  [ 1 ]  \033[1;37mDomain xxx.tepllovpn.eu.org       ${NC}"
+echo -e "$COLOR1│  [ 1 ]  \033[1;37mDomain xxx.tegalvpn.cloud       ${NC}"
 echo -e "$COLOR1╰══════════════════════════════════════════╯${NC}"
 until [[ $domain2 =~ ^[1-2]+$ ]]; do
 read -p "   Please select numbers : " domain2
@@ -128,7 +128,7 @@ done
 if [[ $domain2 == "1" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.pirang.cloud       $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh domain xxx.tegalvpn.cloud       $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -148,7 +148,7 @@ fi
 if [[ $domain2 == "2" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.berurat.cloud      $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud      $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -166,7 +166,7 @@ fi
 if [[ $domain2 == "3" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.xnxxms.cloud       $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud       $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -184,7 +184,7 @@ fi
 if [[ $domain2 == "4" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.slowapp.dev        $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud        $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -202,7 +202,7 @@ fi
 if [[ $domain2 == "5" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.vpnvip.tech        $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud        $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -220,7 +220,7 @@ fi
 if [[ $domain2 == "6" ]]; then
 clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
-echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.slowvip.tech        $COLOR1│${NC}"
+echo -e  "$COLOR1│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud        $COLOR1│${NC}"
 echo -e  "$COLOR1│    \033[1;37mxxx jadi subdomain kamu               $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -251,7 +251,7 @@ clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
 echo -e  "$COLOR1│             ${WH}TERIMA KASIH                 $COLOR1│${NC}"
 echo -e  "$COLOR1│        ${WH}SUDAH MENGGUNAKAN SCRIPT          $COLOR1│${NC}"
-echo -e  "$COLOR1│               ${WH}SFVT VPN                   $COLOR1│${NC}"
+echo -e  "$COLOR1│               ${WH}DARI SAYA                   $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dns1 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
@@ -265,7 +265,7 @@ clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
 echo -e  "$COLOR1│             ${WH}TERIMA KASIH                 $COLOR1│${NC}"
 echo -e  "$COLOR1│        ${WH}SUDAH MENGGUNAKAN SCRIPT          $COLOR1│${NC}"
-echo -e  "$COLOR1│               ${WH}SFVT VPN                   $COLOR1│${NC}"
+echo -e  "$COLOR1│               ${WH}DARI SAYA                   $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dns2 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
@@ -280,7 +280,7 @@ clear
 echo -e  "$COLOR1╭══════════════════════════════════════════╮${NC}"
 echo -e  "$COLOR1│             ${WH}TERIMA KASIH                 $COLOR1│${NC}"
 echo -e  "$COLOR1│        ${WH}SUDAH MENGGUNAKAN SCRIPT          $COLOR1│${NC}"
-echo -e  "$COLOR1│               ${WH}SFVT VPN                   $COLOR1│${NC}"
+echo -e  "$COLOR1│               ${WH}DARI SAYA                   $COLOR1│${NC}"
 echo -e  "$COLOR1╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnscl =~ ^[a-zA-Z0-9_.-]+$ ]]; do
