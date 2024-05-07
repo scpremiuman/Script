@@ -18,7 +18,7 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/rmblvpn"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/paintechvpn"
 exit 0
 fi
 clear
@@ -42,7 +42,7 @@ echo -e "${tyblue}|●⏩ Vless WS none TLS       : 80 ⏪               |${NC}"
 echo -e "${tyblue}|●⏩ Trojan WS none TLS      : 80 ⏪               |${NC}"
 echo -e "${tyblue}|●⏩ Shadowsocks WS none TLS : 80 ⏪               |${NC}"
 echo -e "${tyblue}|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|${NC}"
-echo -e "${tyblue}|            ♡ SCRIPT BY RMBL VPN              |${NC}"
+echo -e "${tyblue}|            ♡ SCRIPT PAINTECHVPN             |${NC}"
 echo -e "${tyblue}|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|${NC}"
 echo -e ""
 read -p " Select menu : " opt
