@@ -335,7 +335,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37mTEGALVPN                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37mDARI SAYA                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
@@ -377,7 +377,7 @@ fi
 if [[ $domain2 == "1" ]]; then
 clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain tegalvpn.cloud        ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.tegalvpn.cloud        ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
@@ -857,7 +857,7 @@ iinfo
 rm -rf *
 echo -e "${BIBlue}╭════════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR} INSTALL SCRIPT SELESAI..                 ${NC}${BIBlue} │${NC}"
-echo -e "${BIBlue}╰════════════════════════════════════════════╯${NC}"/
+echo -e "${BIBlue}╰════════════════════════════════════════════╯${NC}"
 echo  ""
 sleep 4
 echo -e "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "; read answer
