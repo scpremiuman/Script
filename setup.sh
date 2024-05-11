@@ -663,7 +663,7 @@ clear
 } 
 
 res3() {
-wget https://raw.githubusercontent.com/scpremiuman/Script/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/scpremiuman/Script/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
