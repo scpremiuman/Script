@@ -585,7 +585,7 @@ case $opt in
 14 | 14) clear ; key ;;
 22 | 22) clear ; running;;
 23 | 23) clear ; restartservice ;;
-89 | 89) clear ; wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh ;;
+89 | 89) clear ; banner ;;
 88 | 88) clear ; new ;;
 77 | 77) clear ; newx ;;
 100) clear ; $up2u ;;
